@@ -17,7 +17,7 @@ const generateColors = (numColors: number): string[] => {
 
 const MapComponent: React.FC<MapComponentProps> = ({trips}) => {
     const {isLoaded} = useJsApiLoader({
-        googleMapsApiKey: 'AIzaSyA_rbrP-bvnNwTOiP08M_1zRKgp9oTfAAM',
+        googleMapsApiKey: 'API_KEY',
     });
 
     const mapRef = useRef<google.maps.Map | null>(null);
