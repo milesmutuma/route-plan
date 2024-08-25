@@ -12,7 +12,7 @@ export default function Intro({trips}: IntroProps) {
         lng: -1.287611459
     }
     return <div style={{height: "100vh", width: "100%"}}>
-        <APIProvider apiKey={"AIzaSyA_rbrP-bvnNwTOiP08M_1zRKgp9oTfAAM"}>
+        <APIProvider apiKey={API_KEY}>
             <Map
                 center={position}
                 zoom={3}
